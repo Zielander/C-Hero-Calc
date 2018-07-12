@@ -1,6 +1,6 @@
 #ifndef BATTLE_LOGIC_HEADER
 #define BATTLE_LOGIC_HEADER
-
+ 
 #include <vector>
 #include <cmath>
 

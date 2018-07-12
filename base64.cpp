@@ -2,7 +2,7 @@
    base64.cpp and base64.h
 
    base64 encoding and decoding with C++.
-
+    
    Version: Modified Version by LihO
    Link: https://stackoverflow.com/questions/180947/base64-decode-snippet-in-c/13935718#13935718
 

@@ -455,7 +455,7 @@ void initBaseHeroes() {
     baseHeroes.push_back(Monster( 24, 24, "toth",               FIRE,  COMMON,    {BUFF,          FIRE, FIRE, 4}));
     baseHeroes.push_back(Monster( 40, 30, "ganah",              WATER, RARE,      {CHAMPION,      WATER, WATER, 2}));
     baseHeroes.push_back(Monster( 58, 46, "dagda",              AIR,   LEGENDARY, {ADAPT,         AIR, AIR, 2}));
-    
+     
     baseHeroes.push_back(Monster(300,110, "bubbles",            WATER, ASCENDED,  {DAMPEN_L,      ALL, WATER, 0.005f}));
     
     baseHeroes.push_back(Monster(150, 86, "apontus",            WATER, ASCENDED,  {ADAPT,         WATER, WATER, 3}));
@@ -498,13 +498,13 @@ void initBaseHeroes() {
 
 	baseHeroes.push_back(Monster(WORLDBOSS_HEALTH, 11, "kryton", AIR, WORLDBOSS, { TRAINING,      SELF, AIR, 10 }));
 
-	baseHeroes.push_back(Monster(25, 26, "dicemaster",			WATER,	COMMON,		{ PROTECT,    WATER, WATER, 0 }));
-	baseHeroes.push_back(Monster(28, 60, "luxurius",			FIRE,	RARE,		{ PROTECT,    FIRE, FIRE, 0 }));
-	baseHeroes.push_back(Monster(70, 70, "pokerface",			EARTH,	LEGENDARY,	{ PROTECT,    EARTH, EARTH, 0 }));
+	baseHeroes.push_back(Monster(25, 26, "dicemaster",			WATER,	COMMON,		{ BUFF,		  WATER, WATER, 0 }));
+	baseHeroes.push_back(Monster(28, 60, "luxurius",			FIRE,	RARE,		{ BUFF,		  FIRE, FIRE, 0 }));
+	baseHeroes.push_back(Monster(70, 70, "pokerface",			EARTH,	LEGENDARY,	{ BUFF,		  EARTH, EARTH, 0 }));
 
 	baseHeroes.push_back(Monster(25, 25, "taint",				AIR, COMMON,		{ VALKYRIE,   ALL, AIR, 0.5f }));
 	baseHeroes.push_back(Monster(48, 50, "putrid",				EARTH, RARE,		{ TRAINING,   SELF, EARTH, -3 }));
-	baseHeroes.push_back(Monster(66, 34, "defile",				FIRE, LEGENDARY,	{ PROTECT,    FIRE, FIRE, 0 }));
+	baseHeroes.push_back(Monster(66, 34, "defile",				FIRE, LEGENDARY,	{ BUFF,		  FIRE, FIRE, 0 }));
 
 }
 

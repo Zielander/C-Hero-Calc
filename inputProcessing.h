@@ -1,6 +1,6 @@
 #ifndef COSMOS_INPUT_HEADER
 #define COSMOS_INPUT_HEADER
-
+ 
 #include <string>
 #include <vector>
 #include <queue>

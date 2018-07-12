@@ -1,5 +1,5 @@
 #include "battleLogic.h"
-
+ 
 int fightsSimulatedDefault;
 int * totalFightsSimulated = &fightsSimulatedDefault;
 

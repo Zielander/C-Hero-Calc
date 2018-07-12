@@ -8,7 +8,7 @@ const string DEFAULT_MACRO = "default.cqinput";
 const string DEFAULT_CONFIG = "default.cqconfig";
 Configuration config;
 UserInterface interface;
-
+ 
 // Output the buffer to command line
 void UserInterface::printBuffer(OutputLevel urgency) {
     if (shouldOutput(urgency)) {

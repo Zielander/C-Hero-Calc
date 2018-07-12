@@ -173,7 +173,7 @@ void calculateDominance(Instance & instance, bool optimizable,
             pureMonsterArmies[i].lastFightData.dominated = pureMonsterArmies[i].lastFightData.monstersLost < (int) (instance.targetSize - 2);
         }
     }
-    
+     
     sort(pureMonsterArmies.begin(), pureMonsterArmies.end(), hasFewerFollowers);
     for (i = 0; i < pureMonsterArmiesSize; i++) {
         leftFollowerCost = pureMonsterArmies[i].followerCost;
