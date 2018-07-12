@@ -172,7 +172,7 @@ void filterMonsterData(FollowerCount minimumMonsterCost, FollowerCount maximumAr
 //
 // In a FightResult it is always implied that the target won against the proposed solution.
 
-using DamageType	= short;	// change data type here to track large damage; default = short
+using DamageType	= long long;	// change data type here to track large damage; default = short
 
 struct FightResult {
     DamageType frontHealth;        // how much health remaining to the current leading mob of the winning side
